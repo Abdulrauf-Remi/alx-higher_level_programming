@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if len(argv) != 4:
         print("Usage:", argv[0], "<a> <operator> <b>")
         exit(1)
-    a, bi = int(argv[1]), int(argv[3])
+    a, b = int(argv[1]), int(argv[3])
     operator = argv[2]
     math = {"+": add, "-": sub, "*": mul, "/": div}
     if operator not in math:
